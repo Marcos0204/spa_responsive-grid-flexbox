@@ -1,0 +1,34 @@
+@media (max-width: 600px) {
+    body{
+        background-color: red;
+    }
+    .navbar {
+        position: relative;
+    }
+
+    .navbar .shop{
+        display: none;
+    }
+    .navbar .menu-bar {
+        display: block;
+        grid-column: 8/9;
+        font-size: 2em;
+        cursor: pointer;
+    }
+
+    .navbar .menu {
+        position: absolute;
+        width: 100%;
+        height: 70vh;
+        display: grid;
+        align-items: center;
+        background-color: #EDCB54;
+        transform: translateX(170%);
+        transition: all 1s;
+        top: 110%;
+        z-index: 1;
+      } 
+      .navbar .menu-toggle {
+        transform: translateX(70%);
+      }
+}
