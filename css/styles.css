@@ -53,3 +53,11 @@ body{
 .navbar .shop {
     grid-column: 8/9;
 }
+
+/***HERO***/
+
+.hero {
+    height: 80vh;
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+}
