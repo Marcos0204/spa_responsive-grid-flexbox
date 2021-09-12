@@ -57,7 +57,18 @@ body{
 /***HERO***/
 
 .hero {
+    width: 100%;
     height: 80vh;
     background-image: url("../img/bg.jpg");
     background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+
+.hero .info-content {
+    grid-column: 7/10;
+    grid-row: 3/7;
+    color: #fff;
 }
