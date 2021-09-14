@@ -30,4 +30,13 @@
       .navbar .menu-toggle {
         transform: translateX(70%);
       }
+
+
+    /****main-container**/
+    .hero .info-content {
+        grid-column: 3/6;
+        grid-row: 4/8;
+        color: #fff;
+    }
+    
 }

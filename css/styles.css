@@ -70,6 +70,7 @@ body{
 .hero .info-content {
     grid-column: 7/10;
     grid-row: 3/7;
+    width: auto;
     color: #fff;
 }
 
@@ -80,7 +81,7 @@ body{
 
 .hero h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 5rem;
+    font-size: 3rem;
     color: var(--yellouJs);
 }
 
@@ -91,11 +92,17 @@ body{
 }
 
 .hero .btn {
-    font-size: 1em;
+    font-size: 1rem;
     background: none;
     color: #fff;
     padding: 1rem 2rem;
     border: 1px solid var(--yellouJs);
     border-radius: 3rem;
     margin: 1rem 0;
+}
+
+.hero .btn:hover {
+    background-color: var(--yellouJs);
+    color: var(--black-war);
+    font-weight: bold;
 }
