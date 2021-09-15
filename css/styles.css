@@ -72,6 +72,7 @@ body{
     grid-row: 3/7;
     width: auto;
     color: #fff;
+    text-align: center;
 }
 
 .hero h3 {
