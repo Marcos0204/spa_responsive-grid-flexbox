@@ -44,4 +44,15 @@
         font-size: 2.3rem;
         margin: 10px 0;
     }
+
+    /**********footer*****/
+    
+    .footer .follow-me {
+        display: none;
+    }
+    .footer .social-network {
+        grid-column: 2/4;
+        display: flex;
+        justify-content: space-around;
+    }
 }
