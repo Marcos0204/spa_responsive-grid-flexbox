@@ -35,8 +35,9 @@
     /****main-container**/
     .hero .info-content {
         grid-column: 3/6;
-        grid-row: 4/8;
+        grid-row: 5/8;
         color: #fff;
+        text-align: start;
         
     }
     .hero h1 {
